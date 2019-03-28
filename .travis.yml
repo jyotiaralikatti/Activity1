@@ -1,1 +1,7 @@
+language: C
+sudo: false # only for faster
+compiler: gcc
+script:
+- gcc -o new new.c
+- ./new
 
